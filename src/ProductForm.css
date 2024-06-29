@@ -1,0 +1,422 @@
+/* General styling for the container */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the header text */
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form section */
+.form-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for input boxes */
+.input-box {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Styling for labels */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for the image upload button */
+.custom-file-input {
+    display: none;
+}
+
+.custom-file-label {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.custom-file-label:before {
+    content: '\f03e';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+/* Styling for the submit button */
+.submit-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Styling for the preview section */
+.preview-section {
+    margin-top: 20px;
+}
+
+/* Styling for the product card */
+.product-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-card .card-body {
+    padding: 20px;
+}
+
+.product-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-card .card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.price-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+.container {
+    margin-top: 50px;
+  }
+  
+  .form-section {
+    height: 100%; /* Ensure the form section takes full height */
+  }
+  
+  .scrollable-section {
+    height: calc(100vh - 100px); /* Adjust height based on your layout */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 20px; /* Add padding to ensure scroll bar visibility */
+  }
+  
+  .preview-section {
+    position: sticky;
+    top: 50px; /* Adjust based on your layout */
+    height: 100vh; /* Ensure full viewport height */
+    overflow: hidden; /* Hide overflow to prevent double scroll bars */
+  }
+  
+  .product-card {
+    height: 100%; /* Ensure the card takes full height */
+    overflow: auto; /* Enable scrolling within the card */
+    padding: 20px;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  
+  .form-section {
+    height: 100%; /* Ensure the form section takes full height */
+  }
+  
+  .scrollable-section {
+    height: calc(100vh - 100px); /* Adjust height based on your layout */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 20px; /* Add padding to ensure scroll bar visibility */
+  }
+  
+  .preview-section {
+    position: sticky;
+    top: 50px; /* Adjust based on your layout */
+    height: 100vh; /* Ensure full viewport height */
+    overflow: hidden; /* Hide overflow to prevent double scroll bars */
+  }
+  
+  .product-card {
+    height: 100%; /* Ensure the card takes full height */
+    overflow: auto; /* Enable scrolling within the card */
+    padding: 20px;
+  }
+  
+  .horizontal-line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-top: 2px solid #ccc;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem; /* Adjust spacing between form elements */
+  }
+  
+  .input-box {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .subheader-text {
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .header-text {
+    color: black;
+    font-weight: 700;
+  }
+  
+  .btn-primary {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 20px;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  
+  .form-section {
+    height: 100%; /* Ensure the form section takes full height */
+  }
+  
+  .scrollable-section {
+    height: calc(100vh - 100px); /* Adjust height based on your layout */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 20px; /* Add padding to ensure scroll bar visibility */
+  }
+  
+  .preview-section {
+    position: sticky;
+    top: 50px; /* Adjust based on your layout */
+    height: 100vh; /* Ensure full viewport height */
+    overflow: hidden; /* Hide overflow to prevent double scroll bars */
+  }
+  
+  .product-card {
+    height: 100%; /* Ensure the card takes full height */
+    overflow: auto; /* Enable scrolling within the card */
+    padding: 20px;
+  }
+  
+  .horizontal-line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-top: 2px solid #ccc;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem; /* Adjust spacing between form elements */
+  }
+  
+  .input-box {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .subheader-text {
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .header-text {
+    color: black;
+    font-weight: 700;
+  }
+  
+  .btn-primary {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+  }  
+  .container {
+    margin-top: 20px;
+}
+
+.form-section {
+    border-right: 1px solid #ddd;
+}
+
+.scrollable-section {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subheader-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.custom-file-input {
+    cursor: pointer;
+}
+
+.preview-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.submit-button {
+    width: 100%;
+}
+.container {
+    margin-top: 20px;
+}
+
+.form-section {
+    border-right: 1px solid #ddd;
+}
+
+.scrollable-section {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subheader-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.custom-file-input {
+    cursor: pointer;
+}
+
+.preview-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.submit-button {
+    width: 100%;
+}
+/* ProductForm.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .form-section, .preview-section {
+    padding: 20px;
+  }
+  
+  .form-section {
+    overflow-y: auto;
+    max-height: 90vh;
+  }
+  
+  .preview-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-card {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .blurred {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
